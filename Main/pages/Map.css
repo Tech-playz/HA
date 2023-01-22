@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  } 
+  body,
+html {
+  height: 100%;
+}
+body {
+    background-color: rgb(152, 57, 2);
+}
+
+.center {
+    width: 100%;
+    
+
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center;
+
+
+}
+
+.hjd {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.htd {
+
+    border: 3px solid   black;
+    text-align: center;
+
+    width: 325px;
+    border-radius: 50px;
+
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+
+    background-color: gray;
+}
+
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+
+/* 
+ * Use this file to override default font stacks
+ */
+
+ #map {
+    height: 100%;
+    border: 10px solid black;
+    border-radius: 15px;
+  }
+
+.map_main {
+    height: 575px;
+    width: 385px;
+
+    
+    
+}
+  
+  /* 
+   * Optional: Makes the sample page fill the window. 
+   */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .custom-map-control-button {
+    background-color: #fff;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    padding: 0 0.5em;
+    font: 400 18px Roboto, Arial, sans-serif;
+    overflow: hidden;
+    height: 40px;
+    cursor: pointer;
+  }
+  .custom-map-control-button:hover {
+    background: rgb(235, 235, 235);
+  }
+ 
+
+
+
+.menubtn {
+    display: flex;
+    justify-content: center;
+    
+    width: 55%;
+
+    margin: 5px;
+    
+
+    border: 5px black solid;
+    border-radius: 50px;
+
+
+    line-height: 42.5px;
+    
+
+    font-size: 200%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+
+    background-color: rgb(124, 123, 123);
+    color: white !important;
+}
+
+.menubtnh {
+    display: flex;
+    justify-content: center;
+    
+    width: 55%;
+
+    margin: 5px;
+    
+
+    border: 5px black solid;
+    border-radius: 50px;
+
+
+    line-height: 42.5px;
+    
+
+    font-size: 200%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+
+    background-color: rgb(63, 76, 129);
+    color: white !important;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
